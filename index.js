@@ -43,3 +43,8 @@ function strikethrough(num, ele) {
     //myLeads.splice(num);
 
 }
+
+deleteBtn.addEventListener("click", function() {
+    myLeads = []
+    render(myLeads)
+})
