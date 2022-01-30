@@ -19,6 +19,11 @@ inputBtn.addEventListener("click", function() {
     }
 })
 
+deleteBtn.addEventListener("click", function() {
+    myLeads = []
+    renderLeads()
+})
+
 function renderLeads() {
     let listItems = ""
 
@@ -45,7 +50,3 @@ function strikethrough(num, ele) {
 
 }
 
-deleteBtn.addEventListener("click", function() {
-    myLeads = []
-    render(myLeads)
-})
